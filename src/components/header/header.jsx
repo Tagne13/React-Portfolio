@@ -6,7 +6,7 @@ function Header(props) {
     const { currentTab, setCurrentTab } = props;
     return (
         <>
-            <header>
+            <header id='header'>
                 <div>
                     <h1>Jeff Montagne - Professional Portfolio</h1>
                 </div>
