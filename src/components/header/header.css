@@ -1,11 +1,7 @@
 header {
-    background-color: skyblue;
-    color: darkred;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
     border: 5px;
-    border-style: double;
-    border-color: darkred;
+    border-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
