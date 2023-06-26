@@ -7,17 +7,17 @@ function Navigation(props) {
     return (
         <nav>
             <ul>
-                <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
-                    <span onClick={() => setCurrentTab("about")}>About Me</span>
+                <li  className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
+                    <span className='nav-item' onClick={() => setCurrentTab("about")}>About Me</span>
                 </li>
-                <li className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}>
-                    <span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
-                </li>
-                <li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
-                    <span onClick={() => setCurrentTab("contact")}>Contact</span>
+                <li className={currentTab === "project" ? "mx-2 navActive" : "mx-2"}>
+                    <span className='nav-item' onClick={() => setCurrentTab("project")}>Projects</span>
                 </li>
                 <li className={currentTab === "resume" ? "mx-2 navActive" : "mx-2"}>
-                <span onClick={() => setCurrentTab("resume")}>Resume</span>
+                    <span className='nav-item' onClick={() => setCurrentTab("resume")}>Resume</span>
+                </li>
+                <li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
+                <span className='nav-item' onClick={() => setCurrentTab("contact")}>Contact</span>
                 </li>
             </ul>
         </nav>

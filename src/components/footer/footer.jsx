@@ -5,7 +5,7 @@ function Footer () {
     return (
         <footer id='footer'>
             <div>
-                <h4>Made by Jeff Montagne PT, DPT, ATC</h4>
+                <h5>Made by Jeff Montagne PT, DPT, ATC</h5>
                 <p>&copy; 2023</p>
             </div>
         </footer>
