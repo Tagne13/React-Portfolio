@@ -6,13 +6,4 @@ body {
   color: #4dffe4;
   background-color: #1f1f38;
   background-image: url(../src/assets/bg-texture.png);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 };
-
-li {
-  padding: 4px;
-  font-weight: bolder;
-};
-
-

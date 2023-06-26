@@ -3,13 +3,12 @@ header {
     border: 5px;
     border-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
     align-items: center;
     height: 100%;
     position: relative;
-
 };
 
 h1 {
