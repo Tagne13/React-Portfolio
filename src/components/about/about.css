@@ -1,0 +1,6 @@
+.about_image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 400ms ease;
+}
