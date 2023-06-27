@@ -1,6 +1,29 @@
-.about_image {
-    border-radius: 2rem;
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+};
+
+ /* .about_image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 250px;
+    border-style: groove;
+    border-width: 3px;
+    border-color: #4dffe4;
+    border-radius: 40%;
+ }; */
+
+ .me {
+    width: 33%;
+    height: 33%;
+    margin: 4rem auto;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: all 400ms ease;
-}
+    padding: 5rem 1.5rem;
+ };

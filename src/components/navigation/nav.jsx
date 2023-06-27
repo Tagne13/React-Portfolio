@@ -1,12 +1,11 @@
 import React from 'react';
-import {useSate} from 'react';
 import './nav.css';
 
 function Navigation(props) {
     const { currentTab, setCurrentTab } = props;
     return (
         <nav>
-            <ul>
+            <ul className='nav_items'>
                 <li  className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
                     <span onClick={() => setCurrentTab("about")}>About Me</span>
                 </li>
@@ -17,7 +16,7 @@ function Navigation(props) {
                     <span onClick={() => setCurrentTab("resume")}>Resume</span>
                 </li>
                 <li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
-                <span onClick={() => setCurrentTab("contact")}>Contact</span>
+                    <span onClick={() => setCurrentTab("contact")}>Contact</span>
                 </li>
             </ul>
         </nav>
