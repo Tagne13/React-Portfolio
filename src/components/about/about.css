@@ -4,26 +4,22 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin-left: 25%;
-    margin-right: 25%;
-};
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
 
  .about_image {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 250px;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 2rem 2rem 2rem 2rem;
     border-style: groove;
-    border-width: 3px;
+    border-width: 0.25rem;
     border-color: #4dffe4;
-    border-radius: 40%;
- };
+    box-shadow: 5px 3px 15px 3px lightgrey;
+ }
 
  .me {
-    width: 33%;
-    height: 33%;
-    margin: 4rem auto;
+    margin: 4rem;
     overflow: hidden;
-    padding: 5rem 1.5rem;
- };
+    padding: 1rem 1.5rem;
+ }
