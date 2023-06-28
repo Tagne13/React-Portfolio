@@ -9,23 +9,19 @@ header {
     align-items: center;
     height: 100%;
     position: relative;
-};
-
-h1 {
-    
-};
+}
 
 /* Medium sized screens */
 @media screen and (max-width: 1024px) {
 
-};
+}
 
 /* Small sized screens */
 @media screen and (max-width: 600px) {
 
-};
+}
 
 /* X-Small sized screens */
 @media screen and (max-width: 400px) {
 
-};
+}
