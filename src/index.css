@@ -21,6 +21,17 @@ a:hover {
   color: white;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 5px;
+  gap: 3rem;
+  cursor: pointer;
+}
+
 .btn {
   width: max-content;
   display: inline-block;
