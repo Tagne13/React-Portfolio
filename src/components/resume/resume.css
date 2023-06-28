@@ -1,0 +1,53 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    border-radius: 0.4rem;
+    background-color: #4dffe4;
+    font-family: "Poppins";
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+a {
+    color: darkslategrey;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: darkred;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    color: white;
+}
+
+.skills_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.skills_container > div {
+    background: #2c2c6c;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+.skills_container > div:hover {
+    background: transparent;
+    border-color: rgba(77, 255, 228, 0.4);
+    cursor: default;
+}
