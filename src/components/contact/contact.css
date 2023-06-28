@@ -1,20 +1,25 @@
 h2 {
     text-align: center;
-};
+}
 
 .container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 10%;
+    padding: 2rem;
+}
+
+.contact_info {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     text-align: center;
-    align-items: center;
-};
+}
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-};
+}
 
 input, textarea {
     width: 100%;
@@ -24,12 +29,12 @@ input, textarea {
     border: 2px solid rgba(77, 255, 228, 0.4);
     resize: none;
     color: #4dffe4;
-};
+}
 
 textarea {
     padding-bottom: 6rem;
-};
+}
 
 textarea::placeholder {
     font-family: sans-serif;
-};
+}

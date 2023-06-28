@@ -5,7 +5,7 @@ import Resumé from '../../assets/resume.pdf';
 function Resume() {
     return (
         <div className='resume'>
-            <button className='resume_btn'><a href={Resumé} download className='btn'>Download my Resumé</a></button>
+            <a href={Resumé} download className='btn'>Download my Resumé</a>
             <h2>Acquired Skills</h2>
             <div className='skills_container'>
                 <div className='skills_front'>
