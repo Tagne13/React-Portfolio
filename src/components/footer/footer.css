@@ -9,6 +9,30 @@ footer {
     clear: both;
 }
 
+.footer_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer_links a {
+    font-size: 125%;
+    color: #4dffe4;
+    background: #1f1f38;
+    padding: 0.75rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer_links a:hover {
+    background: transparent;
+    color: white;
+    border-color: #4dffe4;
+}
+
 /* Medium sized screens */
 @media screen and (max-width: 1024px) {
 
