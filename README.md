@@ -14,15 +14,17 @@
   
   ## [Description](#table-of-contents)
 
- 
+  This is my professional portfolio created with React, React-dom, React-icons, React-scripts, JavaScript, and CSS. It contains an About Me page, a page containing previous Projects, a Résumé page, and a Contact page. Read below to find the live deployed application. 
 
   ## [Installation](#table-of-contents)
 
-  
+  N/A
 
   ## [Usage](#table-of-contents)
 
-  
+  This application is deployed on [GitHub Pages](https://tagne13.github.io/React-Portfolio/)
+
+  ![Screenshot](src/assets/screenshot.png)
 
   ## [License](#table-of-contents)
 
@@ -32,7 +34,7 @@
     
   ## [Contributing](#table-of-contents)
 
-  
+  N/A
 
   ## [Tests](#table-of-contents)
 
