@@ -38,3 +38,28 @@ textarea {
 textarea::placeholder {
     font-family: sans-serif;
 }
+
+/* Medium sized screens */
+@media screen and (max-width: 1024px) {
+    .container {
+        margin-left: auto;
+        grid-template-columns: 1fr 1 fr;
+        gap: 2rem;
+    }
+}
+
+/* Small sized screens */
+@media screen and (max-width: 600px) {
+    .container {
+        margin-left: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* X-Small sized screens */
+@media screen and (max-width: 400px) {
+    .container {
+        margin-left: auto;
+        grid-template-columns: 1fr;
+    }
+}

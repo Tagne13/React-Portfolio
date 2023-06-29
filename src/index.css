@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 1rem 1rem;
+}
+
 body {
   margin: 5rem;
   font-family: "Poppins", sans-serif;
@@ -8,12 +14,21 @@ body {
   background-image: url(../src/assets/bg-texture.png);
 }
 
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 2.5rem;
 }
 
 h2 {
   font-size: 1.8rem;
+}
+
+section {
+  margin-top: 8rem;
 }
 
 a {
@@ -56,4 +71,43 @@ ul {
 .btn-primary {
   background: #4dffe4;
   color: #1f1f38;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Medium sized screens */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 86%;
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* Small sized screens */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  section {
+    margin-top: 4rem;
+  }
+}
+
+/* X-Small sized screens */
+@media screen and (max-width: 400px) {
+  .container {
+    width: 94%;
+  }
+
+  section {
+    margin-top: 2rem;
+  }
 }
