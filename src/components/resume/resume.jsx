@@ -1,11 +1,11 @@
 import React from 'react';
 import './resume.css';
-import Resumé from '../../assets/resume.pdf';
+import Résumé from '../../assets/resume.pdf';
 
 function Resume() {
     return (
         <div className='resume'>
-            <a href={Resumé} download className='btn'>Download my Resumé</a>
+            <a href={Résumé} download className='btn'>Download my Résumé</a>
             <h2>Acquired Skills</h2>
             <div className='skills_container'>
                 <div className='skills_front'>
