@@ -40,3 +40,26 @@ h4 {
     border-color: rgba(77, 255, 228, 0.4);
     cursor: default;
 }
+
+/* Medium sized screens */
+@media screen and (max-width: 1024px) {
+ .skills_container {
+    gap: 1.5rem;
+ }
+}
+
+/* Small sized screens */
+@media screen and (max-width: 600px) {
+    .skills_container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+     }
+}
+
+/* X-Small sized screens */
+@media screen and (max-width: 400px) {
+    .skills_container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+     }
+}

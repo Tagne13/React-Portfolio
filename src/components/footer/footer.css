@@ -1,4 +1,25 @@
 footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
     text-align: center;
+    margin-top: 5rem;
     clear: both;
+}
+
+/* Medium sized screens */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Small sized screens */
+@media screen and (max-width: 600px) {
+
+}
+
+/* X-Small sized screens */
+@media screen and (max-width: 400px) {
+
 }

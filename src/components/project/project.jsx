@@ -56,6 +56,7 @@ function Project() {
     return (
         <section id='portfolio'>
             <h2>My Recent Work</h2>
+
             <div className='container project_container'>
                 {data.map(({ id, image, title, github, app }) => {
                     return (
@@ -81,11 +82,11 @@ function Project() {
                                 </a>
                             </div>
                         </article>
-                    )
+                    );
                 })}
             </div>
         </section>
-    )
+    );
 };
 
 export default Project;
