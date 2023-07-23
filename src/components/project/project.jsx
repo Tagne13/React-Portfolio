@@ -5,7 +5,7 @@ import app2 from '../../assets/drinking-al-fresco.png';
 import app3 from '../../assets/note-taker.png';
 import app4 from '../../assets/work-day-scheduler.png';
 import app5 from '../../assets/code-quiz.png';
-import app6 from '../../assets/password-generator.png';
+import app6 from '../../assets/chathub.png';
 
 const data = [
     {
@@ -46,9 +46,9 @@ const data = [
     {
         id: 6,
         image: app6,
-        title: 'Password Generator',
-        github: 'https://github.com/Tagne13/Challenge-3',
-        app: 'https://tagne13.github.io/Challenge-3/'
+        title: 'ChatHub',
+        github: 'https://github.com/Tagne13/ChatHub',
+        app: 'https://https://tagne13-chat-app-674e8ae58fd4.herokuapp.com/'
     }
 ];
 
