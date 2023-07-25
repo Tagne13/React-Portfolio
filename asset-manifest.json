@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.6d3824cb.css",
-    "main.js": "/React-Portfolio/static/js/main.59e0ae8e.js",
+    "main.js": "/React-Portfolio/static/js/main.158a55ae.js",
     "static/media/IMG_1875.jpeg": "/React-Portfolio/static/media/IMG_1875.ccc837d1cb4e67786b2a.jpeg",
+    "static/media/chathub.png": "/React-Portfolio/static/media/chathub.a9dffe70d9c603d52340.png",
     "static/media/spin-cycle.png": "/React-Portfolio/static/media/spin-cycle.40f7f7ae5e55114d5bd2.png",
     "static/media/drinking-al-fresco.png": "/React-Portfolio/static/media/drinking-al-fresco.ff53ad8d32133869ce03.png",
     "static/media/code-quiz.png": "/React-Portfolio/static/media/code-quiz.3ccb212f70b208440b94.png",
     "static/media/work-day-scheduler.png": "/React-Portfolio/static/media/work-day-scheduler.ce93934529ef16caf6bc.png",
     "static/media/note-taker.png": "/React-Portfolio/static/media/note-taker.af2583f763c5cbd544be.png",
-    "static/media/password-generator.png": "/React-Portfolio/static/media/password-generator.8954573f7bb2117f1c47.png",
     "static/media/resume.pdf": "/React-Portfolio/static/media/resume.e216fcd573ef191e6805.pdf",
     "index.html": "/React-Portfolio/index.html",
     "main.6d3824cb.css.map": "/React-Portfolio/static/css/main.6d3824cb.css.map",
-    "main.59e0ae8e.js.map": "/React-Portfolio/static/js/main.59e0ae8e.js.map"
+    "main.158a55ae.js.map": "/React-Portfolio/static/js/main.158a55ae.js.map"
   },
   "entrypoints": [
     "static/css/main.6d3824cb.css",
-    "static/js/main.59e0ae8e.js"
+    "static/js/main.158a55ae.js"
   ]
 }
