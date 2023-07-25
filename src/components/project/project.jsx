@@ -48,7 +48,7 @@ const data = [
         image: app6,
         title: 'ChatHub',
         github: 'https://github.com/Tagne13/ChatHub',
-        app: 'https://https://tagne13-chat-app-674e8ae58fd4.herokuapp.com/'
+        app: 'https://tagne13-chat-app-674e8ae58fd4.herokuapp.com/'
     }
 ];
 
